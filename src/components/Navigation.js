@@ -9,7 +9,7 @@ function Navigation({props}) {
         <img src={props[0].menu_logo.url}></img>
       </div>
       <ul className="nav-items">
-        {props[0].menu_items.menu_item.map((item) => {return <li className="nav-item">{item}</li>})}
+        {props[0].menu_items.menu_item.map((item) => {return <li key={item} className="nav-item">{item}</li>})}
       </ul>
 
       <div className="nav-buttons">

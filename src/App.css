@@ -126,6 +126,7 @@ button:hover {
 
 .table-header {
   width: 100%;
+  padding-bottom:10px
 }
 
 .table-header > p {
@@ -143,4 +144,38 @@ button:hover {
   text-align: center;
   color: rgb(172, 172, 172);
   font-size: 14px;
+}
+
+.banner {
+  text-align:center;
+  align:center;
+  padding:10px 0;
+  margin:0 5px;
+  border: 1px #f00 solid
+
+}
+
+.banner a {
+  text-decoration:none;
+  color:red
+}
+
+.modal {
+  background: white;
+  z-index: 10;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px #f00 solid;
+  text-align: center;
+  padding:20px
+}
+
+.modalContent {
+  padding: 120px;
+  font-size: 24px;
+  text-align: center;
 }
